@@ -14,8 +14,8 @@ definition -> ...
 
 		<= nrel_using_constants: ...
 			(*
-				-> function_maximization;;
-				-> function_minimization;;
+				-> nrel_function_maximization;;
+				-> nrel_function_minimization;;
 				-> nrel_functional_mapping;;
 				-> optimization_problem;;
 			*);;

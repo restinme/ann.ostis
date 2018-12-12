@@ -20,19 +20,6 @@ nrel_number_of_synaptic_connections => nrel_definitional_domain: ...
 	*);;
 
 
-nrel_number_of_synaptic_connections <- binary_relation 
-	(*
-		=> nrel_measurement: 2 
-			(*
-				<- number;;
-			*);;
-		<- parameter 
-			(*
-				<- sc_node_not_relation;;
-				<- arity (* <- sc_node_not_relation;; *);;
-			*);;
-	*);;
-
 nrel_number_of_synaptic_connections
 	<- binary_relation;
 	<- oriented_relation;

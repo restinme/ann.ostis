@@ -14,19 +14,6 @@ nrel_input_signal_vector => nrel_definitional_domain: ...
 	*);;
 
 
-nrel_input_signal_vector <- binary_relation 
-	(*
-		=> nrel_measurement: 2 
-			(*
-				<- number;;
-			*);;
-		<- parameter 
-			(*
-				<- sc_node_not_relation;;
-				<- arity (* <- sc_node_not_relation;; *);;
-			*);;
-	*);;
-
 nrel_input_signal_vector
 	<- binary_relation;
 	<- oriented_relation;

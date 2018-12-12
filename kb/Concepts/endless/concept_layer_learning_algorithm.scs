@@ -19,7 +19,7 @@ definition -> ...
 				-> nrel_hidden_layer;;
 				-> concept_gradient_descent;;
 				-> nrel_equal_of_quantities;;
-				-> adaptive_learning_step;;
+				-> nrel_adaptive_learning_step;;
 			*);;
 
 		<= nrel_sc_text_translation: ...

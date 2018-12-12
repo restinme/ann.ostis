@@ -14,19 +14,6 @@ nrel_error_function => nrel_definitional_domain: ...
 	*);;
 
 
-nrel_error_function <- binary_relation 
-	(*
-		=> nrel_measurement: 2 
-			(*
-				<- number;;
-			*);;
-		<- parameter 
-			(*
-				<- sc_node_not_relation;;
-				<- arity (* <- sc_node_not_relation;; *);;
-			*);;
-	*);;
-
 nrel_error_function
 	<- binary_relation;
 	<- oriented_relation;
@@ -43,15 +30,15 @@ definition -> ...
 		<= nrel_using_constants: ...
 			(*
 				-> loss_function;;	
-				-> function_minimization;;
+				-> nrel_function_minimization;;
 				-> concept_supervised_learning;;
-				-> output_signal_vector;;
+				-> nrel_output_signal_vector;;
 				-> vector;;
 			*);;
 
 		<= nrel_sc_text_translation: ...
 			(*
-				->[Функция ошибок - целевая функция</sc_element>, требующая минимизации в процессе обучения с учителем и вычисляющая расстояние между фактическим выходным вектором нейронной сети и заранее известным желаемым вектором] (* <- lang_ru;; *);;
+				->[Функция ошибок - целевая функция, требующая минимизации в процессе обучения с учителем и вычисляющая расстояние между фактическим выходным вектором нейронной сети и заранее известным желаемым вектором] (* <- lang_ru;; *);;
 			*);;
 	*);;
 

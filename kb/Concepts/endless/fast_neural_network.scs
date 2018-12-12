@@ -16,6 +16,8 @@ definition -> ...
 			(*
 				-> neural_networks_without_feedbacks;;
 				-> multilayer_neural_network;;
+				-> neural_networks_without_feedbacks;;
+				-> neural_network_architecture;;
 			*);;
 
 		<= nrel_sc_text_translation: ...

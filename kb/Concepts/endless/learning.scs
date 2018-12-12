@@ -8,6 +8,7 @@ learning => nrel_subdividing: ... (*
 	concept_semi_supervised_learning; 
 	concept_unsupervised_learning;	
 	concept_relearning;;
+	concept_gradient_learning;;
 *);;
 
 definition -> ...

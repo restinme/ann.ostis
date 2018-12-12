@@ -19,19 +19,6 @@ nrel_output_values_matrix => nrel_definitional_domain: ...
 	*);;
 
 
-nrel_output_values_matrix <- binary_relation 
-	(*
-		=> nrel_measurement: 2 
-			(*
-				<- number;;
-			*);;
-		<- parameter 
-			(*
-				<- sc_node_not_relation;;
-				<- arity (* <- sc_node_not_relation;; *);;
-			*);;
-	*);;
-
 nrel_output_values_matrix
 	<- binary_relation;
 	<- oriented_relation;
@@ -50,7 +37,7 @@ definition -> ...
 				-> layer;;
 				-> matrix;;	
 				-> neuron_node;;
-				-> nrel_synapse_weight;;
+				-> synapse_weight;;
 				-> synaptic_connection;;
 			*);;
 
