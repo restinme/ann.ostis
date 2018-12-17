@@ -34,10 +34,10 @@ definition -> ...
 
 		<= nrel_using_constants: ...
 			(*
-				-> layer;;
+				-> nrel_layer;;
 				-> matrix;;	
 				-> neuron_node;;
-				-> synapse_weight;;
+				-> nrel_synapse_weight;;
 				-> synaptic_connection;;
 			*);;
 

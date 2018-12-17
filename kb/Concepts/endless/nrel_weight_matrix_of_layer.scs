@@ -34,8 +34,8 @@ definition -> ...
 
 		<= nrel_using_constants: ...
 			(*
-				-> layer;;
-				-> synapse_weight;;	
+				-> nrel_layer;;
+				-> nrel_synapse_weight;;	
 				-> matrix;;
 				-> neuron_node;;
 				-> synaptic_connection;;

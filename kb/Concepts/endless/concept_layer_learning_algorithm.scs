@@ -13,7 +13,7 @@ definition -> ...
 		<= nrel_using_constants: ...
 			(*
 				-> concept_backpropagation_learning_algorithm;;
-				-> synapse_weight;;
+				-> nrel_synapse_weight;;
 				-> nrel_threshold_activation_function;;
 				-> neuron_node;;
 				-> nrel_hidden_layer;;

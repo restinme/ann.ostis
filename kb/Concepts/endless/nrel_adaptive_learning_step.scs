@@ -30,7 +30,7 @@ definition -> ...
 		<= nrel_using_constants: ...
 			(*
 				-> neural_network_in_graphical_representation;;
-				-> nrel_mean_square_error;;	
+				-> concept_mean_square_error;;	
 				-> nrel_function_minimization;;
 				-> nrel_learning_step;;
 			*);;
